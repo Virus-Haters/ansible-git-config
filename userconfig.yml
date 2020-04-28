@@ -5,5 +5,5 @@
   tasks:
     - name: Ensure .gitconfig with proper content
       copy:
-        src: "mygitconfig.txt"
+        src: "~/mygitconfig.txt"
         dest: "~/.gitconfig"
