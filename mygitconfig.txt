@@ -1,0 +1,3 @@
+[user]
+  name=Tanay Karnik
+  email=tanay@myemail.com
