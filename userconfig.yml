@@ -1,5 +1,6 @@
 ---
   name: Ensure username and email for git config.
+  hosts: all
   tasks:
     -name: Ensure .gitconfig
     copy:
