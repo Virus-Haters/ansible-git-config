@@ -1,0 +1,7 @@
+---
+  name: Ensure username and email for git config.
+  tasks:
+    -name: Ensure .gitconfig
+    copy:
+      src: ./mygitconfig.txt
+      dest: ~/.gitconfig
